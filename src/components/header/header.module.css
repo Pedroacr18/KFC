@@ -47,14 +47,14 @@
   display: none;
 }
 
-.navLink{
+.navLink {
   color: white;
 }
-.navLink:hover{
+.navLink:hover {
   color: black;
 }
 
-.btn_login:hover{
+.btn_login:hover {
   color: white;
   background-color: black;
 }
@@ -64,7 +64,7 @@
     display: none;
   }
 
-  .header_wrapper{
+  .header_wrapper {
     padding-right: 10px;
   }
   #buttonMobile {

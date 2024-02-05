@@ -8,11 +8,17 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   const links = [
-    { name: "Inicio", link: "/"},
+    { name: "Inicio", link: "/" },
     { name: "Cardapio", link: "https://kfcbrasil.com.br/pt/menu.html" },
-    { name: "KFC mais proximo", link: "https://kfcbrasil.com.br/pt/store-locator.html" },
+    {
+      name: "KFC mais proximo",
+      link: "https://kfcbrasil.com.br/pt/store-locator.html",
+    },
     { name: "Ofertas", link: "https://kfcbrasil.com.br/pt/deals.html" },
-    { name: "Delivery", link: "https://kfcbrasil.com.br/pt/store-locator.html" },
+    {
+      name: "Delivery",
+      link: "https://kfcbrasil.com.br/pt/store-locator.html",
+    },
   ];
 
   const toggleMenu = () => {
@@ -47,7 +53,10 @@ const Header = () => {
             ))}
 
             <li className={styles.header_li}>
-              <a href="https://kfcbrasil.com.br/pt/menu.html" className={styles.btn_login}>
+              <a
+                href="https://kfcbrasil.com.br/pt/menu.html"
+                className={styles.btn_login}
+              >
                 PEÇA JÁ
               </a>
             </li>

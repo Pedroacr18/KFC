@@ -17,12 +17,10 @@ const Section2 = () => {
       </div>
       <Swiper
         breakpoints={{
-          // when window width is >= 640px
           600: {
             width: 600,
             slidesPerView: 2,
           },
-          // when window width is >= 768px
           768: {
             width: 768,
             slidesPerView: 2,

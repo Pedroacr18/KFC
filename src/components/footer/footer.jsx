@@ -20,35 +20,79 @@ const Footer = () => {
             momentos de alegria. Bom apetite!
           </h2>
           <div className={styles.social}>
-          <a href="https://www.instagram.com/kfcbrasil/">
-            <img src={Rede1} alt="Rede1" />
+            <a href="https://www.instagram.com/kfcbrasil/">
+              <img src={Rede1} alt="Rede1" />
             </a>
             <a href="https://pt-br.facebook.com/KFCBrasil/">
-            <img src={Rede2} alt="Rede2" />
+              <img src={Rede2} alt="Rede2" />
             </a>
             <a href="https://twitter.com/KFCBrasil">
-            <img src={Rede3} alt="Rede3" />
+              <img src={Rede3} alt="Rede3" />
             </a>
           </div>
         </div>
         <ul className={styles.footer_ul}>
-                  <div>
-                    <h3 className={styles.footer_title}><a href="#" className={styles.footer_h3}>ATENDIMENTO AO CLIENTE</a></h3>
-                    <li><a href="https://kfcbrasil.com.br/pt/contact-us.html" className={styles.footer_a}>Fale Conosco</a></li>
-                    <li><a href="https://kfcbrasil.com.br/pt/store-locator.html" className={styles.footer_a}>KFC Mais Proximo</a></li>
-                    </div>
+          <div>
+            <h3 className={styles.footer_title}>
+              <a href="#" className={styles.footer_h3}>
+                ATENDIMENTO AO CLIENTE
+              </a>
+            </h3>
+            <li>
+              <a
+                href="https://kfcbrasil.com.br/pt/contact-us.html"
+                className={styles.footer_a}
+              >
+                Fale Conosco
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://kfcbrasil.com.br/pt/store-locator.html"
+                className={styles.footer_a}
+              >
+                KFC Mais Proximo
+              </a>
+            </li>
+          </div>
 
-                    <div>
-                    <h3 className={styles.footer_title}><a className={styles.footer_h3} href="#">SOBRE NOS</a></h3>
-                    <li><a href="https://kfcbrasil.com.br/pt/nossa-historia-.html" className={styles.footer_a}>Nossa Historia</a></li>
-                    <li><a href="https://franquiakfc.com.br/" className={styles.footer_a}>Seja Um Franqueado</a></li>
-                    </div>
+          <div>
+            <h3 className={styles.footer_title}>
+              <a className={styles.footer_h3} href="#">
+                SOBRE NOS
+              </a>
+            </h3>
+            <li>
+              <a
+                href="https://kfcbrasil.com.br/pt/nossa-historia-.html"
+                className={styles.footer_a}
+              >
+                Nossa Historia
+              </a>
+            </li>
+            <li>
+              <a href="https://franquiakfc.com.br/" className={styles.footer_a}>
+                Seja Um Franqueado
+              </a>
+            </li>
+          </div>
 
-                    <div>
-                      <h3 className={styles.footer_title}><a className={styles.footer_h3} href="#">POLITICA DE PRIVACIDADE</a></h3>
-                      <li><a href="https://kfcbrasil.com.br/pt/termos_de_uso.html" className={styles.footer_a}>Política de privacidade</a></li>
-                    </div>
-                </ul>
+          <div>
+            <h3 className={styles.footer_title}>
+              <a className={styles.footer_h3} href="#">
+                POLITICA DE PRIVACIDADE
+              </a>
+            </h3>
+            <li>
+              <a
+                href="https://kfcbrasil.com.br/pt/termos_de_uso.html"
+                className={styles.footer_a}
+              >
+                Política de privacidade
+              </a>
+            </li>
+          </div>
+        </ul>
       </div>
       <div className={styles.footer_copy}>
         <div className={styles.footer_copycontainer}>
@@ -58,7 +102,7 @@ const Footer = () => {
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default Footer;
