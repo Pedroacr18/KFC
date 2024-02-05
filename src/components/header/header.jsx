@@ -8,6 +8,7 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   const links = [
+    { name: "Inicio"},
     { name: "Cardapio", link: "https://kfcbrasil.com.br/pt/menu.html" },
     { name: "KFC mais proximo", link: "https://kfcbrasil.com.br/pt/store-locator.html" },
     { name: "Ofertas", link: "https://kfcbrasil.com.br/pt/deals.html" },
